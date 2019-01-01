@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* My Colours 
+
+Dark Green #1B4107
+Goldenrod #e0b719
+Light Steel Blue #d5e9e7
+Dark Sea Green #94b3a6
+Olive Drab #436914
+
+*/
+
+@font-face {
+    font-family: "Covered By Your Grace";
+    src: url("fonts/coveredbyyourgrace/CoveredByYourGrace.ttf") format('truetype'),  url("fonts/coveredbyyourgrace/coveredbyyourgrace-webfont.woff") format('woff'),  url("fonts/coveredbyyourgrace/coveredbyyourgrace-webfont.woff2") format('woff2');
+}
+@font-face {
+    font-family: "Sunflower";
+    src: url("fonts/sunflower/Sunflower-Light.ttf") format('truetype'),  url("fonts/sunflower/Sunflower-Medium.ttf") format('truetype'),  url("fonts/sunflower/Sunflower-Bold.ttf") format('truetype'),  url("fonts/sunflower/sunflower-light-webfont.woff") format('woff'),  url("fonts/sunflower/sunflower-medium-webfont.woff") format('woff'),  url("fonts/sunflower/sunflower-bold-webfont.woff") format('woff'),  url("fonts/sunflower/sunflower-light-webfont.woff2") format('woff2'),  url("fonts/sunflower/sunflower-medium-webfont.woff2") format('woff2'),  url("fonts/sunflower/sunflower-bold-webfont.woff2") format('woff2');
+}
+h1, h2, .logo-lg, .logo-sm {
+    font-family: "Covered By Your Grace";
+}
+* {
+	font-family: "Sunflower";
+}
+#flowerousel1 {
+    background-image: url("../images/check.jpg")
+}
+.clear {
+    clear: both
+}
+#feedback {
+    height: 635px;
+    max-height: 635px;
+    overflow: scroll;
+}
+#aboutus {
+    height: 635px;
+    max-height: 635px;
+    overflow: scroll;
+}
+
+@media screen and (min-width:992px) {
+#aboutus, #feedback {
+    overflow: auto;
+}
+}
+
+@media screen and (max-width:576px) {
+.logo-lg {
+    display: none !important;
+}
+}
+
+@media screen and (min-width:577px) {
+.logo-sm {
+    display: none !important;
+}
+}
