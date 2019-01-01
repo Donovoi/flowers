@@ -13,21 +13,27 @@ Olive Drab #436914
 
 @font-face {
     font-family: "Covered By Your Grace";
-    src: url("fonts/coveredbyyourgrace/CoveredByYourGrace.ttf") format('truetype'),  url("fonts/coveredbyyourgrace/coveredbyyourgrace-webfont.woff") format('woff'),  url("fonts/coveredbyyourgrace/coveredbyyourgrace-webfont.woff2") format('woff2');
+    src: url("fonts/coveredbyyourgrace/CoveredByYourGrace.ttf") format('truetype'), url("fonts/coveredbyyourgrace/coveredbyyourgrace-webfont.woff") format('woff'), url("fonts/coveredbyyourgrace/coveredbyyourgrace-webfont.woff2") format('woff2');
 }
 @font-face {
     font-family: "Sunflower";
-    src: url("fonts/sunflower/Sunflower-Light.ttf") format('truetype'),  url("fonts/sunflower/Sunflower-Medium.ttf") format('truetype'),  url("fonts/sunflower/Sunflower-Bold.ttf") format('truetype'),  url("fonts/sunflower/sunflower-light-webfont.woff") format('woff'),  url("fonts/sunflower/sunflower-medium-webfont.woff") format('woff'),  url("fonts/sunflower/sunflower-bold-webfont.woff") format('woff'),  url("fonts/sunflower/sunflower-light-webfont.woff2") format('woff2'),  url("fonts/sunflower/sunflower-medium-webfont.woff2") format('woff2'),  url("fonts/sunflower/sunflower-bold-webfont.woff2") format('woff2');
+    src: url("fonts/sunflower/Sunflower-Light.ttf") format('truetype'), url("fonts/sunflower/Sunflower-Medium.ttf") format('truetype'), url("fonts/sunflower/Sunflower-Bold.ttf") format('truetype'), url("fonts/sunflower/sunflower-light-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-medium-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-bold-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-light-webfont.woff2") format('woff2'), url("fonts/sunflower/sunflower-medium-webfont.woff2") format('woff2'), url("fonts/sunflower/sunflower-bold-webfont.woff2") format('woff2');
 }
-h1, h2, .logo-lg, .logo-sm {
+
+body {
+  background: #000 url("../images/check.jpg") no-repeat;
+}
+
+h1, h2, a.logo-lg, a.logo-sm {
     font-family: "Covered By Your Grace";
 }
-* {
-	font-family: "Sunflower";
+
+a.logo-lg, a.logo-sm {
+	font-size: 2em;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	
 }
-#flowerousel1 {
-    background-image: url("../images/check.jpg")
-}
+
 .clear {
     clear: both
 }
@@ -48,14 +54,30 @@ h1, h2, .logo-lg, .logo-sm {
 }
 }
 
-@media screen and (max-width:576px) {
-.logo-lg {
-    display: none !important;
+@media screen and (max-width:992px) {
+a.logo-lg {
+    display: none;
 }
 }
 
-@media screen and (min-width:577px) {
-.logo-sm {
-    display: none !important;
+@media screen and (min-width:993px) {
+a.logo-sm {
+    display: none;
 }
+}
+li.nav-item a.nav-link {
+    font-weight: 700;
+	color: black;
+	font-size: 1.2em;
+	text-shadow: -1px 3px black, 0 1px black, 1px 0 green, 0 -1px green;
+	
+}
+
+ul.navbar-nav li:hover {
+	
+	background: #E0B719;
+}
+
+* {
+    font-family: "Sunflower";
 }
