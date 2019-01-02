@@ -37,22 +37,12 @@ a.logo-lg, a.logo-sm {
 .clear {
     clear: both
 }
-#feedback {
-    height: 635px;
-    max-height: 635px;
-    overflow: scroll;
-}
-#aboutus {
-    height: 635px;
-    max-height: 635px;
-    overflow: scroll;
-}
+  
 
-@media screen and (min-width:992px) {
 #aboutus, #feedback {
     overflow: auto;
 }
-}
+
 
 @media screen and (max-width:992px) {
 a.logo-lg {
@@ -121,5 +111,33 @@ li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
 		display: none;
 		
 	}
+	
+}
+
+
+::-webkit-scrollbar {
+  width: auto;
+  cursor:pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-radius: 10px;
+	border: #000000;
+	border-width: 1px;
+	border-style: solid;
+}
+
+
+span.fa-arrow-right, span.fa-arrow-left {
+	background-color:#FFFFFF;
+	color: black;
+	border: #000000;
+}
+
+
+#aboutus,#feedback {
+	background-color: #FFFFFF;
+	opacity: 0.9;
 	
 }
