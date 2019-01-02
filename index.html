@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="css/fonts/coveredbyyourgrace/stylesheet.css" type="text/css" charset="utf-8" />
 <!-- Font Sunflower -->
 <link rel="stylesheet" href="css/fonts/sunflower/stylesheet.css" type="text/css" charset="utf-8" />
+<!-- For Hamburgers! -->
+<link href="css/hamburgers.css" rel="stylesheet">	
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 </head>
@@ -18,13 +20,22 @@
 
 <!-- body code goes here -->
 <header>
-  <nav class="navbar navbar-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I Want Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+  <nav class=" navbar navbar-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I Want Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
+    <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button> --><script>function toggleColor() {
+
+ document.getElementById("ham").classList.toggle("is-active");
+
+}</script>	
+	 <button id="ham" class="hamburger hamburger--arrow" type="button" data-toggle="collapse" data-target="#navbarCollapse" onclick="toggleColor()">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>   
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item"> <a class="nav-link" href="./products.html">Our Products</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="./findus.html">Find Us</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="./contactus.html">Contact Us</a> </li>
+        <li class="topBotomBordersOut nav-item"> <a id="navlinks1" class="nav-link" href="./products.html">Our Products</a> </li>
+        <li class="topBotomBordersOut nav-item"> <a id="navlinks2" class="nav-link" href="./findus.html">Find Us</a> </li>
+        <li class="topBotomBordersOut nav-item"> <a id="navlinks3" class="nav-link" href="./contactus.html">Contact Us</a> </li>
       </ul>
     </div>
   </nav>
@@ -71,7 +82,7 @@
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#flowerousel1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#flowerousel1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    <a class="carousel-control-prev" href="#flowerousel1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#flowerousel1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
   <section>
     <div id="aboutus" class="card text-center container col-6 float-left">
       <div class="card-header">
@@ -194,5 +205,6 @@ document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString()
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap.js"></script> 
 <script src="js/bootstrap.bundle.js"></script>
+
 </body>
 </html>
