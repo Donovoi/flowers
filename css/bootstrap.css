@@ -377,7 +377,8 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+    font-size: 1.75rem;
+    font-weight: bolder;
 }
 
 h4, .h4 {
@@ -4406,7 +4407,8 @@ input[type="button"].btn-block {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
 }
 
 .card-subtitle {
