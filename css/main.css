@@ -65,19 +65,61 @@ a.logo-sm {
     display: none;
 }
 }
-li.nav-item a.nav-link {
+#navlinks1,#navlinks2,#navlinks3 {
     font-weight: 700;
-	color: black;
+	color: white;
 	font-size: 1.2em;
-	text-shadow: -1px 3px black, 0 1px black, 1px 0 green, 0 -1px green;
-	
+	text-shadow: -1px 3px black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-decoration: none;
+	z-index: 0;
+	cursor: pointer;
+	position: relative;
+	display: inline;
 }
 
-ul.navbar-nav li:hover {
-	
-	background: #E0B719;
+/* A little Nav Magic */
+
+
+li.topBotomBordersOut a:before, li.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
 }
+
+li.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+li.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 
 * {
     font-family: "Sunflower";
+}
+
+@media screen and (min-width:992px) {
+	
+	#ham {
+		display: none;
+		
+	}
+	
 }
