@@ -107,18 +107,4 @@ span.fa-arrow-right, span.fa-arrow-left {
     opacity: 0.9;
 }
 
-/*.starrating > input {display: none;}   Remove radio buttons */
-
-button:before { 
-  margin: 2px;
-  font-size: 8em;
-}
-
-
-button:active
-{ color: #ffca08 ; } /* Set yellow color when star checked */
-
-button:hover
-{ ;  } /* Set yellow color when star hover */
-
 
