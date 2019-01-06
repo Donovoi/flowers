@@ -20,7 +20,7 @@
   --gray-dark: #343a40;
   --primary: #007bff;
   --secondary: #6c757d;
-  --success: #28a745;
+  --success: #1B4107;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -2405,14 +2405,14 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #1B4107;
+  border-color: #1B4107;
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
+  background-color: #436914;
+  border-color: #436914;
 }
 
 .btn-success:focus, .btn-success.focus {

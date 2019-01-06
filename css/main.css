@@ -19,30 +19,26 @@ Olive Drab #436914
     font-family: "Sunflower";
     src: url("fonts/sunflower/Sunflower-Light.ttf") format('truetype'), url("fonts/sunflower/Sunflower-Medium.ttf") format('truetype'), url("fonts/sunflower/Sunflower-Bold.ttf") format('truetype'), url("fonts/sunflower/sunflower-light-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-medium-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-bold-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-light-webfont.woff2") format('woff2'), url("fonts/sunflower/sunflower-medium-webfont.woff2") format('woff2'), url("fonts/sunflower/sunflower-bold-webfont.woff2") format('woff2');
 }
-
 body {
-  background: #000 url("../images/check.jpg") no-repeat;
+    background: #000 url("../images/check.jpg") fixed;
 }
+
+
+
 
 h1, h2, a.logo-lg, a.logo-sm {
     font-family: "Covered By Your Grace";
 }
-
 a.logo-lg, a.logo-sm {
-	font-size: 2em;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-	
+    font-size: 2em;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-
 .clear {
     clear: both
 }
-  
-
 #aboutus, #feedback {
     overflow: auto;
 }
-
 
 @media screen and (max-width:992px) {
 a.logo-lg {
@@ -55,23 +51,21 @@ a.logo-sm {
     display: none;
 }
 }
-#navlinks1,#navlinks2,#navlinks3 {
+#navlinks1, #navlinks2, #navlinks3 {
     font-weight: 700;
-	color: white;
-	font-size: 1.2em;
-	text-shadow: -1px 3px black, 0 1px black, 1px 0 black, 0 -1px black;
-	text-decoration: none;
-	z-index: 0;
-	cursor: pointer;
-	position: relative;
-	display: inline;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: -1px 3px black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    z-index: 0;
+    cursor: pointer;
+    position: relative;
+    display: inline;
 }
-
 /* A little Nav Magic */
 
 
-li.topBotomBordersOut a:before, li.topBotomBordersOut a:after
-{
+li.topBotomBordersOut a:before, li.topBotomBordersOut a:after {
     position: absolute;
     left: 0px;
     width: 100%;
@@ -81,63 +75,50 @@ li.topBotomBordersOut a:before, li.topBotomBordersOut a:after
     opacity: 0;
     transition: all 0.3s;
 }
-
-li.topBotomBordersOut a:before
-{
+li.topBotomBordersOut a:before {
     top: 0px;
     transform: translateY(10px);
 }
-
-li.topBotomBordersOut a:after
-{
+li.topBotomBordersOut a:after {
     bottom: 0px;
     transform: translateY(-10px);
 }
-
-li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after
-{
+li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after {
     opacity: 1;
     transform: translateY(0px);
 }
-
-
 * {
     font-family: "Sunflower";
 }
 
 @media screen and (min-width:992px) {
-	
-	#ham {
-		display: none;
-		
-	}
-	
+#ham {
+    display: none;
 }
-
-
-::-webkit-scrollbar {
-  width: auto;
-  cursor:pointer;
 }
-
-::-webkit-scrollbar-thumb {
-  background: #FFFFFF;
-  border-radius: 10px;
-	border: #000000;
-	border-width: 1px;
-	border-style: solid;
-}
-
 
 span.fa-arrow-right, span.fa-arrow-left {
-	background-color:#FFFFFF;
-	color: black;
-	border: #000000;
+    background-color: #FFFFFF;
+    color: black;
+    border: #000000;
+}
+#aboutus, #feedback {
+    background-color: #FFFFFF;
+    opacity: 0.9;
+}
+
+/*.starrating > input {display: none;}   Remove radio buttons */
+
+button:before { 
+  margin: 2px;
+  font-size: 8em;
 }
 
 
-#aboutus,#feedback {
-	background-color: #FFFFFF;
-	opacity: 0.9;
-	
-}
+button:active
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+button:hover
+{ ;  } /* Set yellow color when star hover */
+
+

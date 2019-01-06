@@ -23,7 +23,7 @@
 <!-- body code goes here -->
 <header>
   <nav class=" navbar navbar-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I Want Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a> 
-    <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button> --><script>function toggleColor() {
+    <script>function toggleColor() {
 
  document.getElementById("ham").classList.toggle("is-active");
 
@@ -39,7 +39,7 @@
   </nav>
 </header>
 <main>
-  <div id="flowerousel1" class="carousel slide bg-transparent" data-ride="carousel"> 
+  <div id="flowerousel1" class="carousel slide bg-transparent" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active"> <img class="d-block mx-auto img-fluid w-25 h-25 rounded-circle" src="images/alisa-anton-74562-unsplash.jpg" alt="First slide"> </div>
       <div class="carousel-item"> <img class="d-block mx-auto img-fluid w-25 h-25 rounded-circle" src="images/annie-spratt-210732-unsplash.jpg" alt="Second slide"> </div>
@@ -58,20 +58,21 @@
         <div> <img class="rounded img-fluid rounded-circle" src="images/rawpixel-678092-unsplash.png" alt="Our Team" /> </div>
         <p class="card-text"><strong>This is the team that is responsible for all of your beautiful orders and fantastic decorations.</strong><br>
           With 100+ years of experience between us, we are able to handle anything that get's thrown our way. Give us a go and you will happy that you gave us a go! </p>
-        <a href="./products.html" class="btn btn-primary">Show me the Flowers!</a> </div>
+        <a href="./products.html" class="btn btn-success">Show me the Flowers!</a> </div>
     </div>
-	</div>
-	<div clas="row">
+  </div>
+  <div clas="row">
     <div id="feedback" class="jumbotron container">
-      <h5 class="card-title">Have a look at some feedback from our happy customers</h5>
+      <h5 class="card-title text-center">Testimonials</h5>
+      <hr/>
       <div class="container-fluid">
         <div class="col">
           <div class="row">
             <hr/>
             <div class="review-block">
               <div class="row">
-                <div class="col"> <img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" alt="profile picture" class="img-rounded">
-                  <div class="review-block-name"><a href="#">Frank Renolds SR.</a></div>
+                <div class="col">
+                  <div class="review-block-name"><strong><em>Frank Renolds SR.</em></strong></div>
                   <div class="review-block-date"><script>function randomDate(start, end) {
     return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
 }
@@ -91,11 +92,10 @@ document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString()
                 </div>
               </div>
               <hr/>
-              <hr/>
               <div class="review-block">
                 <div class="row">
-                  <div class="col"> <img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" alt="profile picture" class="img-rounded">
-                    <div class="review-block-name"><a href="#">Frank Renolds SR.</a></div>
+                  <div class="col">
+                    <div class="review-block-name"><strong><em>Mary Tulips</em></strong></div>
                     <div class="review-block-date"><script>function randomDate(start, end) {
     return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
 }
@@ -106,42 +106,69 @@ document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString()
                     <div class="review-block-rate">
                       <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
                       <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
-                      <button type="button" class="btn btn-grey btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
-                      <button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
-                      <button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                      <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                      <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                      <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
                     </div>
-                    <div class="review-block-title">SPAM</div>
-                    <div class="review-block-description">Did not ask or order any flowers but they sent me some. The person delivering got a serve. They did smell nice though.</div>
+                    <div class="review-block-title">Beautiful!</div>
+                    <div class="review-block-description">Fantastic little flowershop that gave me everything I needed for my wedding at a very low price!</div>
                   </div>
                 </div>
                 <hr/>
-              </div>
-              <hr class="my-4">
-              <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-              <p class="lead"> 
-                <!-- Button to Open the Modal -->
-              <div class="container-fluid text-center">
-                <button id="feedbackbutton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Got Feedback?</button>
-              </div>
-              <!-- The Modal -->
-              <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                  <div class="modal-content"> 
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                      <h4 class="modal-title">Modal Heading</h4>
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="review-block">
+                  <div class="row">
+                    <div class="col">
+                      <div class="review-block-name"><strong><em>Sunny Flowerson</em></strong></div>
+                      <div class="review-block-date"><script>function randomDate(start, end) {
+    return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+}
+
+document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script></div>
                     </div>
-                    <!-- Modal body -->
-                    <div class="modal-body"> Modal body.. </div>
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <div class="col-9">
+                      <div class="review-block-rate">
+                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                        <button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                      </div>
+                      <div class="review-block-title">Good Stuff</div>
+                      <div class="review-block-description">Happy with my order of flowers for my wifes funeral. Was a great day. </div>
                     </div>
+                  </div>
+                  <hr/>
+                  <div class="review-block">
+                    <div class="row">
+                      <div class="col">
+                        <div class="review-block-name"><strong><em>Daisy Gardener</em></strong></div>
+                        <div class="review-block-date"><script>function randomDate(start, end) {
+    return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+}
+
+document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script></div>
+                      </div>
+                      <div class="col-9">
+                        <div class="review-block-rate">
+                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+                        </div>
+                        <div class="review-block-title">Very Happy!</div>
+                        <div class="review-block-description">I went in there expecting to be told they didn't have what I wanted as I've searched EVERYWHERE! But to my amazing the lovely staff new exactly what I wanted and were able to get it for me! </div>
+                      </div>
+                    </div>
+                    <hr/>
+                  </div>
+                  <h5 class="text-center">We love all types of feedback! Feel free to leave us something by clicking on the feedback button below.</h5>
+                  <!-- Button to Open the Modal -->
+                  <div class="container-fluid text-center">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Got Feedback?</button>
                   </div>
                 </div>
               </div>
-              </p>
             </div>
           </div>
         </div>
@@ -172,6 +199,126 @@ document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString()
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap.js"></script> 
 <script src="js/bootstrap.bundle.js"></script> 
-<script src="css/all.css"></script>
+<script src="css/all.css"></script> 
+<!-- The Modal -->
+<div class="modal fade row" id="myModal">
+  <div class="modal-dialog col">
+    <div class="modal-content"> 
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Feedback Form</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form>
+          <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Feedback</label>
+            <div class="col-sm-9">
+              <textarea type="text" class="form-control form-text"> </textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Rating</label>
+            <div class="review-block-rate col-sm-9">
+              <button id="btn1" type="button" class="btn btn-default btn-xs" aria-label="Left Align" onClick="toggleOneButton()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+              <button id="btn2" type="button" class="btn btn-default btn-xs" aria-label="Left Align" onClick="toggleTwoButtons()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+              <button id="btn3" type="button" class="btn btn-default btn-xs" aria-label="Left Align" onClick="toggleThreeButtons()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+              <button id="btn4" type="button" class="btn btn-default btn-xs" aria-label="Left Align" onClick="toggleFourButtons()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+              <button id="btn5" type="button" class="btn btn-default btn-xs" aria-label="Left Align" onClick="toggleAllButtons()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
+            </div>
+            <script>function toggleAllButtons() {
+
+ document.getElementById("btn1").classList.toggle("btn-warning");
+document.getElementById("btn1").classList.toggle("btn-default");
+document.getElementById("btn2").classList.toggle("btn-warning");
+document.getElementById("btn2").classList.toggle("btn-default");
+				  document.getElementById("btn3").classList.toggle("btn-warning");
+document.getElementById("btn3").classList.toggle("btn-default");
+				  document.getElementById("btn4").classList.toggle("btn-warning");
+document.getElementById("btn4").classList.toggle("btn-default");
+				  document.getElementById("btn5").classList.toggle("btn-warning");
+document.getElementById("btn5").classList.toggle("btn-default");
+		
+
+}</script> 
+            <script>function toggleFourButtons() {
+
+ document.getElementById("btn1").classList.toggle("btn-warning");
+document.getElementById("btn1").classList.toggle("btn-default");
+document.getElementById("btn2").classList.toggle("btn-warning");
+document.getElementById("btn2").classList.toggle("btn-default");
+				  document.getElementById("btn3").classList.toggle("btn-warning");
+document.getElementById("btn3").classList.toggle("btn-default");
+				  document.getElementById("btn4").classList.toggle("btn-warning");
+document.getElementById("btn4").classList.toggle("btn-default");
+}</script> 
+            <script>function toggleThreeButtons() {
+
+ document.getElementById("btn1").classList.toggle("btn-warning");
+document.getElementById("btn1").classList.toggle("btn-default");
+document.getElementById("btn2").classList.toggle("btn-warning");
+document.getElementById("btn2").classList.toggle("btn-default");
+				  document.getElementById("btn3").classList.toggle("btn-warning");
+document.getElementById("btn3").classList.toggle("btn-default");		
+
+}</script> 
+            <script>function toggleTwoButtons() {
+
+ if (document.getElementById("btn2").classList.contains("btn-warning")) {
+	 
+ document.getElementById("btn2").classList.add("btn-default");
+document.getElementById("btn2").classList.remove("btn-warning");	 
+document.getElementById("btn1").classList.add("btn-default");	 
+ document.getElementById("btn1").classList.remove("btn-warning");
+ 
+ }							  
+	else {							  document.getElementById("btn2").classList.add("btn-warning");
+		  								document.getElementById("btn1").classList.add("btn-warning");
+								  document.getElementById("btn3").classList.add("btn-default");
+								  document.getElementById("btn3").classList.remove("btn-warning");
+								  document.getElementById("btn3").classList.add("btn-default");
+								  document.getElementById("btn4").classList.remove("btn-warning");
+								  document.getElementById("btn4").classList.add("btn-default");
+								  document.getElementById("btn5").classList.remove("btn-warning");
+								  document.getElementById("btn5").classList.add("btn-default");};
+}</script> 
+            <script>function toggleOneButton() {
+
+ document.getElementById("btn1").classList.toggle("btn-warning");
+document.getElementById("btn1").classList.remove("btn-default");
+								  document.getElementById("btn2").classList.remove("btn-warning");
+								  document.getElementById("btn2").classList.add("btn-default");
+								  document.getElementById("btn3").classList.remove("btn-warning");
+								  document.getElementById("btn3").classList.add("btn-default");
+								  document.getElementById("btn4").classList.remove("btn-warning");
+								  document.getElementById("btn4").classList.add("btn-default");
+								  document.getElementById("btn5").classList.remove("btn-warning");
+								  document.getElementById("btn5").classList.add("btn-default");
+
+}</script> 
+          </div>
+        </form>
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button class="btn btn-warning" type="submit">Submit</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
