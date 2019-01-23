@@ -1,137 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Products</title>
-<!-- My css -->
-<link href="css/main.css" rel="stylesheet">
-<!-- Font Covered By Your Grace -->
-<link rel="stylesheet" href="css/fonts/coveredbyyourgrace/stylesheet.css" type="text/css" charset="utf-8" />
-<!-- Font Sunflower -->
-<link rel="stylesheet" href="css/fonts/sunflower/stylesheet.css" type="text/css" charset="utf-8" />
-<!-- For Hamburgers! -->
-<link href="css/hamburgers.css" rel="stylesheet">
-<!-- Bootstrap -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<!-- Font Awesome -->
-<link href="css/all.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products</title>
+  <!-- My css -->
+  <link href="css/main.css" rel="stylesheet">
+  <!-- Font Covered By Your Grace -->
+  <link rel="stylesheet" href="css/fonts/coveredbyyourgrace/stylesheet.css" type="text/css" charset="utf-8" />
+  <!-- Font Sunflower -->
+  <link rel="stylesheet" href="css/fonts/sunflower/stylesheet.css" type="text/css" charset="utf-8" />
+  <!-- For Hamburgers! -->
+  <link href="css/hamburgers.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="css/all.css" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- body code goes here -->
-<header>
-  <nav class=" navbar navbar-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I Want Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
-    <button id="ham" class="hamburger hamburger--arrow" type="button" data-toggle="collapse" data-target="#navbarCollapse" onclick="toggleHam()"> <span class="hamburger-box"> <span class="hamburger-inner"></span> </span> </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="topBotomBordersOut nav-item"> <a id="navlinks1" class="nav-link" href="./products.html">Our Products</a> </li>
-        <li class="topBotomBordersOut nav-item"> <a id="navlinks2" class="nav-link" href="./findus.html">Find Us</a> </li>
-        <li class="topBotomBordersOut nav-item"> <a id="navlinks3" class="nav-link" href="./contactus.html">Contact Us</a> </li>
-      </ul>
+  <!-- body code goes here -->
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I Want
+        Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
+      <button id="ham" class="hamburger hamburger--arrow" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        onclick="toggleHam()"> <span class="hamburger-box"> <span class="hamburger-inner"></span> </span> </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="topBotomBordersOut nav-item"> <a id="navlinks1" class="nav-link" href="./products.html">Our
+              Products</a> </li>
+          <li class="topBotomBordersOut nav-item"> <a id="navlinks2" class="nav-link" href="./findus.html">Find Us</a>
+          </li>
+          <li class="topBotomBordersOut nav-item"> <a id="navlinks3" class="nav-link" href="./contactus.html">Contact
+              Us</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="prodtable">
+      <table class="table bg-light table-bordered table-hover table-responsive table-striped">
+        <thead>
+          <tr>
+            <td class="col">
+              <h4 class="text-center">Name</h4>
+            </td>
+            <td class="col">
+              <h4 class="text-center">Description</h4>
+            </td>
+            <td class="col">
+              <h4 class="text-center">Price</h4>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <td>
+              <div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
+              <div class="card-title text-center"> Rosé </div>
+            </td>
+            <td class="card-body">Beautiful, one of a kind Rosé for sale.
+              This is perfect for the angry wife. </td>
+            <td class="">$100 or <br>
+              1 A.R.M</td>
+          </tr>
+          <tr class="">
+            <td>
+              <div class="container"> <img class="img-fluid rounded" src="./images/lilly.jpg" alt="Rosé"> </div>
+              <div class="card-title text-center "> Tigress Lilly </div>
+            </td>
+            <td class="card-body">Based on the aura of the north Sumatran southern tigress who is nearly exinct, <br>
+              these flowers represent beauty and power. </td>
+            <td class="">$50 per flower
+              <p class="text-danger">(nearly sold out)</p>
+            </td>
+          </tr>
+          <tr class="">
+            <td>
+              <div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
+              <div class="card-title text-center "> Rosé </div>
+            </td>
+            <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
+              This is perfect for the angry wife. </td>
+            <td class="">$100 or <br>
+              1 A.R.M</td>
+          </tr>
+          <tr class="">
+            <td>
+              <div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
+              <div class="card-title text-center "> Rosé </div>
+            </td>
+            <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
+              This is perfect for the angry wife. </td>
+            <td class="">$100 or <br>
+              1 A.R.M</td>
+          </tr>
+          <tr class="">
+            <td>
+              <div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
+              <div class="card-title text-center "> Rosé </div>
+            </td>
+            <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
+              This is perfect for the angry wife. </td>
+            <td class="">$100 or <br>
+              1 A.R.M</td>
+          </tr>
+          <tr class="">
+            <td>
+              <div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
+              <div class="card-title text-center "> Rosé </div>
+            </td>
+            <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
+              This is perfect for the angry wife. </td>
+            <td class="">$100 or <br>
+              1 A.R.M</td>
+          </tr>
+          <tr class="">
+            <td>
+              <div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
+              <div class="card-title text-center "> Rosé </div>
+            </td>
+            <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
+              This is perfect for the angry wife. </td>
+            <td class="">$100 or <br>
+              1 A.R.M</td>
+          </tr>
+          <tr class="">
+            <td>
+              <div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
+              <div class="card-title text-center "> Rosé </div>
+            </td>
+            <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
+              This is perfect for the angry wife. </td>
+            <td class="">$100 or <br>
+              1 A.R.M</td>
+          </tr>
+        </tbody>
+        <tfooter> </tfooter>
+      </table>
     </div>
-  </nav>
-</header>
-<main>
-  <div id="prodtable">
-    <table class="table bg-light table-bordered table-hover table-responsive table-striped">
-      <thead>
-        <tr>
-          <td class="col"><h4 class="text-center">Name</h4></td>
-          <td class="col"><h4 class="text-center">Description</h4></td>
-          <td class="col"><h4 class="text-center">Price</h4></td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="">
-          <td><div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
-            <div class="card-title text-center"> Rosé </div></td>
-          <td class="card-body">Beautiful, one of a kind Rosé for sale.
-            This is perfect for the angry wife. </td>
-          <td class="">$100 or <br>
-            1 A.R.M</td>
-        </tr>
-        <tr class="">
-          <td><div class="container"> <img class="img-fluid rounded" src="./images/lilly.jpg" alt="Rosé"> </div>
-            <div class="card-title text-center "> Tigress Lilly </div></td>
-          <td class="card-body">Based on the aura of the north Sumatran southern tigress who is nearly exinct, <br>
-            these flowers represent beauty and power. </td>
-          <td class="">$50 per flower
-            <p class="text-danger">(nearly sold out)</p></td>
-        </tr>
-        <tr class="">
-          <td><div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
-            <div class="card-title text-center "> Rosé </div></td>
-          <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
-            This is perfect for the angry wife. </td>
-          <td class="">$100 or <br>
-            1 A.R.M</td>
-        </tr>
-        <tr class="">
-          <td><div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
-            <div class="card-title text-center "> Rosé </div></td>
-          <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
-            This is perfect for the angry wife. </td>
-          <td class="">$100 or <br>
-            1 A.R.M</td>
-        </tr>
-        <tr class="">
-          <td><div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
-            <div class="card-title text-center "> Rosé </div></td>
-          <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
-            This is perfect for the angry wife. </td>
-          <td class="">$100 or <br>
-            1 A.R.M</td>
-        </tr>
-        <tr class="">
-          <td><div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
-            <div class="card-title text-center "> Rosé </div></td>
-          <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
-            This is perfect for the angry wife. </td>
-          <td class="">$100 or <br>
-            1 A.R.M</td>
-        </tr>
-        <tr class="">
-          <td><div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
-            <div class="card-title text-center "> Rosé </div></td>
-          <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
-            This is perfect for the angry wife. </td>
-          <td class="">$100 or <br>
-            1 A.R.M</td>
-        </tr>
-        <tr class="">
-          <td><div class="container"> <img class="img-fluid rounded" src="./images/rose.jpg" alt="Rosé"> </div>
-            <div class="card-title text-center "> Rosé </div></td>
-          <td class="card-body">Beautiful, one of a kind Rosé for sale. <br>
-            This is perfect for the angry wife. </td>
-          <td class="">$100 or <br>
-            1 A.R.M</td>
-        </tr>
-      </tbody>
-      <tfooter> </tfooter>
-    </table>
-  </div>
-  <section class="container-fluid"> </section>
-</main>
-<footer class="d-block clear">
-  <nav class=" navbar navbar-light bg-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I Want Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active"> <a class="nav-link" href="https://skillageit.tech"><em>Designed by skillageIT © 
-        <script> var d = new Date(); document.write(d.getFullYear())</script> 
-        </em> <span class="sr-only">(current)</span></a></li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-    </form>
-  </nav>
-</footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-3.3.1.min.js"></script> 
+    <section class="container-fluid"> </section>
+  </main>
+  <footer class="d-block clear">
+    <nav class=" navbar navbar-light bg-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I
+        Want Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link" href="https://skillageit.tech"><em>Designed by skillageIT ©
+              <script> var d = new Date(); document.write(d.getFullYear())</script>
+            </em> <span class="sr-only">(current)</span></a></li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+      </form>
+    </nav>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.3.1.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/popper.min.js"></script> 
-<script src="js/bootstrap.js"></script> 
-<script src="js/bootstrap.bundle.js"></script> 
-<script src="js/main.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
