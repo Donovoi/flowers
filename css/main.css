@@ -112,3 +112,17 @@ span.fa-arrow-right, span.fa-arrow-left {
     padding: 15px;
     opacity: 0.94;
         }
+
+.img-table {
+    height: 200px;
+    width: 200px;
+    background-position: 50% 50%;
+
+}
+
+@media screen and (max-width: 992px) {
+    .img-table {
+        height: auto;
+        max-width: 100%;
+    }
+}
