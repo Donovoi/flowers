@@ -126,3 +126,9 @@ span.fa-arrow-right, span.fa-arrow-left {
         max-width: 100%;
     }
 }
+
+#list-tab {
+    overflow-wrap: break-word;
+
+
+}
