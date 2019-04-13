@@ -1,23 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>I Want Flowers</title>
+    <!-- My css -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Font Covered By Your Grace -->
+    <link charset="utf-8" href="css/fonts/coveredbyyourgrace/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <!-- Font Sunflower -->
+    <link charset="utf-8" href="css/fonts/sunflower/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <!-- For Hamburgers! -->
+    <link href="css/hamburgers.css" rel="stylesheet">
     <!-- Bootstrap -->
-	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
-	
-  </head>
-  <body>
-  	<!-- body code goes here -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/all.css" rel="stylesheet">
+</head>
 
+<body>
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.2.1.min.js"></script>
+<!-- body code goes here -->
+<header>
+    <nav class=" navbar navbar-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I Want
+        Flowers</a> <a class="logo-sm navbar-brand" href="./index.html">IWF</a>
+        <button class="hamburger hamburger--arrow" data-target="#navbarCollapse" data-toggle="collapse" id="ham" onclick="toggleHam()"
+                type="button"><span class="hamburger-box"> <span class="hamburger-inner"></span> </span></button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="topBotomBordersOut nav-item"><a class="nav-link" href="./products.html" id="navlinks1">Our
+                    Products</a></li>
+                <li class="topBotomBordersOut nav-item"><a class="nav-link" href="./findus.html" id="navlinks2">Find Us</a>
+                </li>
+                <li class="topBotomBordersOut nav-item"><a class="nav-link" href="./contactus.html" id="navlinks3">Contact
+                    Us</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="row">
+        <div class="col-4 h-100 pr-0 pb-0">
+            <ol class="list-group " id="list-tab" role="tablist">
+                <a aria-controls="melbourne" class="list-group-item list-group-item-action active" data-toggle="list" href="#list-melbourne" id="list-melbourne-list" role="tab">
+                    <li>
+                        Melbourne
+                    </li>
+                </a>
+                <a aria-controls="sydney" class="list-group-item list-group-item-action" data-toggle="list" href="#list-sydney" id="list-sydney-list" role="tab">
+                    <li>
+                        Sydney
+                    </li>
+                </a>
+                <a aria-controls="perth" class="list-group-item list-group-item-action" data-toggle="list" href="#list-perth" id="list-perth-list" role="tab">
+                    <li>
+                        Perth
+                    </li>
+                </a>
+                <a aria-controls="abu" class="list-group-item list-group-item-action" data-toggle="list" href="#list-abu" id="list-abu-list" role="tab">
+                    <li>
+                        Abu Dhabi
+                    </li>
+                </a>
 
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/popper.min.js"></script> 
-	<script src="js/bootstrap-4.0.0.js"></script>
-  </body>
+            </ol>
+        </div>
+
+        <div class="col-4 h-100 pl-0">
+            <div class="tab-content" id="nav-tabContent">
+                <div aria-labelledby="list-melbourne-list" class="tab-pane fade show active" id="list-melbourne" role="tabpanel">
+                    <div class="card bg-light">
+                        <div class="card-header"><h4 class="card-title">Melbourne</h4></div>
+                        <div class="card-body">
+
+                            <a class="card-text">
+                                990 Koo Wee Rup Rd<br><strong>Pakenham</strong><br>VIC 3810<br><i class="fas fa-map-marker-alt"></i><a
+                                    href="https://www.google.com.au/maps/@-38.1101088,145.4863647,3a,75y,10.85h,61.91t/data=!3m7!1e1!3m5!1sKtpwXeyWEZRFsjE8hKj_Zg!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DKtpwXeyWEZRFsjE8hKj_Zg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D98.30968%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656">
+                                Open in Google Maps</a>
+                                <br>
+                                <i class="fas fa-phone"></i><a href="tel:0417 495 969"> 0417 495 969</a><br>
+                                <i class="fas fa-mail-bulk"></i><a href="mailto:melbourne.website@iwantflowers.com.au"> Email Us</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div aria-labelledby="list-sydney-list" class="tab-pane fade" id="list-sydney" role="tabpanel">
+                    <div class="card bg-light">
+                        <div class="card-header"><h5 class="card-title">Sydney</h5></div>
+                        <div class="card-body">
+
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div aria-labelledby="list-perth-list" class="tab-pane fade" id="list-perth" role="tabpanel">
+                    <div class="card bg-light">
+                        <div class="card-header"><h5 class="card-title">Perth</h5></div>
+                        <div class="card-body">
+
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div aria-labelledby="list-abu-list" class="tab-pane fade" id="list-abu" role="tabpanel">
+                    <div class="card bg-light">
+                        <div class="card-header"><h5 class="card-title">Abu Dhabi</h5></div>
+                        <div class="card-body">
+
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</main>
+<footer class="d-block clear">
+    <nav class=" navbar navbar-light bg-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I
+        Want Flowers</a> <a class="logo-sm navbar-brand" href="./index.html">IWF</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="https://skillageit.tech"><em>Designed by skillageIT ©
+                <script> var d = new Date()
+                document.write(d.getFullYear())</script>
+            </em> <span class="sr-only">(current)</span></a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        </form>
+    </nav>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/main.js"></script>
+</body>
+
 </html>
