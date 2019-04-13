@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade3f993-4c24-4f86-b603-88ce3400e30c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/145963.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Carousel_Placeholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alisa-anton-74562-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/alisa-anton-74562-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/annie-spratt-210732-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/annie-spratt-210732-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/check.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/check.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/danielle-marroquin-16121-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/danielle-marroquin-16121-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lilly.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/lilly.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rawpixel-678092-unsplash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rose.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/rose.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sasha-stories-134405-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sasha-stories-134405-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/suresh-purohit-774835-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/suresh-purohit-774835-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="109" column="107" selection-start-line="109" selection-start-column="107" selection-end-line="109" selection-end-column="107" />
+            <state relative-caret-position="121">
+              <caret line="145" column="37" lean-forward="true" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="68" column="102" selection-start-line="68" selection-start-column="102" selection-end-line="68" selection-end-column="102" />
+              <caret line="68" column="116" selection-start-line="68" selection-start-column="116" selection-end-line="68" selection-end-column="116" />
             </state>
           </provider>
         </entry>
@@ -79,8 +66,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
-        <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/products.html" />
       </list>
     </option>
   </component>
@@ -162,7 +149,7 @@
       <workItem from="1548492322980" duration="1890000" />
       <workItem from="1548587633533" duration="371000" />
       <workItem from="1548588051273" duration="3555000" />
-      <workItem from="1555129034354" duration="5834000" />
+      <workItem from="1555129034354" duration="8138000" />
     </task>
     <task id="LOCAL-00001" summary="just fixing html for products">
       <created>1548588922972</created>
@@ -185,17 +172,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555129641022</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix spacing in products page">
+      <created>1555141680901</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555141680901</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12742000" />
+    <option name="totallyTimeSpent" value="15046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25237092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25237092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,7 +203,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.49947312" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.36263737" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.32087913" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,17 +305,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="109" column="107" selection-start-line="109" selection-start-column="107" selection-end-line="109" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="68" column="102" selection-start-line="68" selection-start-column="102" selection-end-line="68" selection-end-column="102" />
+          <caret line="68" column="116" selection-start-line="68" selection-start-column="116" selection-end-line="68" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="145" column="37" lean-forward="true" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
         </state>
       </provider>
     </entry>
