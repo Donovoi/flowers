@@ -9,9 +9,9 @@
     <!-- My css -->
     <link href="css/main.css" rel="stylesheet">
     <!-- Font Covered By Your Grace -->
-    <link charset="utf-8" href="css/fonts/coveredbyyourgrace/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link href="css/fonts/coveredbyyourgrace/stylesheet.css" rel="stylesheet" type="text/css"/>
     <!-- Font Sunflower -->
-    <link charset="utf-8" href="css/fonts/sunflower/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link href="css/fonts/sunflower/stylesheet.css" rel="stylesheet" type="text/css"/>
     <!-- For Hamburgers! -->
     <link href="css/hamburgers.css" rel="stylesheet">
     <!-- Bootstrap -->
@@ -22,7 +22,7 @@
 
 <body>
 
-<!-- body code goes here -->
+<!-- header -->
 <header>
     <nav class="navbar navbar-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I Want
         Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
@@ -44,6 +44,7 @@
     </nav>
 </header>
 <main>
+    <!-- product table -->
     <table class="table bg-light container table-bordered table-hover table-responsive table-striped p-0">
         <thead>
         <tr>
@@ -96,7 +97,7 @@
         </tr>
         <tr>
             <td>
-                <div class="container"><img alt="Bleeding Hearts" class="rounded img-table" srcset="./images/bleeding-hearts-200.jpg"></div>
+                <div class="container"><img alt="Bleeding Hearts" class="rounded img-table" src="./images/bleeding-hearts-200.jpg"></div>
                 <div class="card-title text-center">Bleeding Hearts</div>
             </td>
             <td class="card-body">While some flowers are subtle or send mixed messages, the Bleeding Heart is both bold and dramatic. <br>
@@ -152,13 +153,14 @@
     </table>
     <section class="container-fluid"></section>
 </main>
+<!-- footer-->
 <footer class="d-block clear">
     <nav class="navbar navbar-light bg-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I
         Want Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a class="nav-link" href="https://skillageit.tech"><em>Designed by skillageIT ©
-                <script> var d = new Date()
-                document.write(d.getFullYear())</script>
+                <script> const d = new Date();
+                document.write(d.getFullYear());</script>
             </em> <span class="sr-only">(current)</span></a></li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

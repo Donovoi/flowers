@@ -9,9 +9,9 @@
     <!-- My css -->
     <link href="css/main.css" rel="stylesheet">
     <!-- Font Covered By Your Grace -->
-    <link charset="utf-8" href="css/fonts/coveredbyyourgrace/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link href="css/fonts/coveredbyyourgrace/stylesheet.css" rel="stylesheet" type="text/css"/>
     <!-- Font Sunflower -->
-    <link charset="utf-8" href="css/fonts/sunflower/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link href="css/fonts/sunflower/stylesheet.css" rel="stylesheet" type="text/css"/>
     <!-- For Hamburgers! -->
     <link href="css/hamburgers.css" rel="stylesheet">
     <!-- Bootstrap -->
@@ -22,7 +22,7 @@
 
 <body>
 
-<!-- body code goes here -->
+<!-- header -->
 <header>
     <nav class="navbar navbar-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I Want
         Flowers</a> <a class="logo-sm navbar-brand" href="./index.html">IWF</a>
@@ -97,8 +97,6 @@
                             </div>
                         </div>
 
-                        </form>
-
                         <div class="text-center text-md-left">
                             <button class="btn btn-success" data-target="#contactmodal" data-toggle="modal" type="button">Send</button>
                         </div>
@@ -131,12 +129,13 @@
 
     </section>
 </main>
+<!-- footer-->
 <footer class="d-block clear" id="footer">
     <nav class=" navbar navbar-light bg-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I
         Want Flowers</a> <a class="logo-sm navbar-brand" href="./index.html">IWF</a>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a class="nav-link" href="https://skillageit.tech"><em>Designed by skillageIT ©
-                <script> var d = new Date();
+                <script> const d = new Date();
                 document.write(d.getFullYear());</script>
             </em> <span class="sr-only">(current)</span></a></li>
         </ul>
@@ -154,7 +153,6 @@
 <script src="js/main.js"></script>
 
 </body>
-<!-- Button trigger modal -->
 <!-- Modal -->
 <div aria-hidden="true" aria-labelledby="#contactmodallabel" class="modal fade" id="contactmodal" role="dialog" tabindex="-1">
     <div class="modal-dialog" role="document">

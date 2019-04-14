@@ -2,310 +2,324 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>I Want Flowers</title>
-  <!-- My css -->
-  <link href="css/main.css" rel="stylesheet">
-  <!-- Font Covered By Your Grace -->
-  <link rel="stylesheet" href="css/fonts/coveredbyyourgrace/stylesheet.css" type="text/css" charset="utf-8" />
-  <!-- Font Sunflower -->
-  <link rel="stylesheet" href="css/fonts/sunflower/stylesheet.css" type="text/css" charset="utf-8" />
-  <!-- For Hamburgers! -->
-  <link href="css/hamburgers.css" rel="stylesheet">
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link href="css/all.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>I Want Flowers</title>
+    <!-- My css -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Font Covered By Your Grace -->
+    <link href="css/fonts/coveredbyyourgrace/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <!-- Font Sunflower -->
+    <link href="css/fonts/sunflower/stylesheet.css" rel="stylesheet" type="text/css"/>
+    <!-- For Hamburgers! -->
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/all.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- body code goes here -->
-  <header>
-    <nav class=" navbar navbar-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I Want
+<!-- body code goes here -->
+<header>
+    <!-- navbar -->
+    <nav class=" navbar navbar-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I Want
         Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
-      <button id="ham" class="hamburger hamburger--arrow" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        onclick="toggleHam()"> <span class="hamburger-box"> <span class="hamburger-inner"></span> </span> </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="topBotomBordersOut nav-item"> <a id="navlinks1" class="nav-link" href="./products.html">Our
-              Products</a> </li>
-          <li class="topBotomBordersOut nav-item"> <a id="navlinks2" class="nav-link" href="./findus.html">Find Us</a>
-          </li>
-          <li class="topBotomBordersOut nav-item"> <a id="navlinks3" class="nav-link" href="./contactus.html">Contact
-              Us</a> </li>
-        </ul>
-      </div>
+        <button class="hamburger hamburger--arrow" data-target="#navbarCollapse" data-toggle="collapse" id="ham" onclick="toggleHam()"
+                type="button"><span class="hamburger-box"> <span class="hamburger-inner"></span> </span></button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="topBotomBordersOut nav-item"><a class="nav-link" href="./products.html" id="navlinks1">Our
+                    Products</a></li>
+                <li class="topBotomBordersOut nav-item"><a class="nav-link" href="./findus.html" id="navlinks2">Find Us</a>
+                </li>
+                <li class="topBotomBordersOut nav-item"><a class="nav-link" href="./contactus.html" id="navlinks3">Contact
+                    Us</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
-  <main>
+</header>
+<main>
+    <!-- corousel to show pictures of work -->
     <div id="flowerousel1" class="carousel slide bg-transparent" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active"> <img class="d-block mx-auto img-fluid w-25 h-25 rounded-circle" src="images/alisa-anton-74562-unsplash.jpg"
-            alt="First slide"> </div>
-        <div class="carousel-item"> <img class="d-block mx-auto img-fluid w-25 h-25 rounded-circle" src="images/annie-spratt-210732-unsplash.jpg"
-            alt="Second slide"> </div>
-        <div class="carousel-item"> <img class="d-block mx-auto img-fluid w-25 h-25 rounded-circle" src="images/danielle-marroquin-16121-unsplash.jpg"
-            alt="Third slide"> </div>
-        <div class="carousel-item"> <img class="d-block mx-auto img-fluid w-25 h-25 rounded-circle" src="images/sasha-stories-134405-unsplash.jpg"
-            alt="Fourth slide"> </div>
-        <div class="carousel-item"> <img class="d-block mx-auto img-fluid w-25 h-25 rounded-circle" src="images/suresh-purohit-774835-unsplash.jpg"
-            alt="Fourth slide"> </div>
-      </div>
-      <a class="carousel-control-prev" href="#flowerousel1" role="button" data-slide="prev"> <span class="fas fa-arrow-left fa-3x fa-border"
-          aria-hidden="true"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#flowerousel1"
-        role="button" data-slide="next"> <span class="fas fa-arrow-right fa-3x fa-border" aria-hidden="true"></span><span
-          class="sr-only">Next</span> </a>
-    </div>
-    <div class="row">
-      <div id="aboutus" class="card text-center container">
-        <div class="card-header">
-          <h3>About Us</h3>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active"><img alt="First slide" class="d-block mx-auto img-fluid w-25 h-25 rounded-circle"
+                                                   src="images/alisa-anton-74562-unsplash.jpg"></div>
+            <div class="carousel-item"><img alt="Second slide" class="d-block mx-auto img-fluid w-25 h-25 rounded-circle"
+                                            src="images/annie-spratt-210732-unsplash.jpg"></div>
+            <div class="carousel-item"><img alt="Third slide" class="d-block mx-auto img-fluid w-25 h-25 rounded-circle"
+                                            src="images/danielle-marroquin-16121-unsplash.jpg"></div>
+            <div class="carousel-item"><img alt="Fourth slide" class="d-block mx-auto img-fluid w-25 h-25 rounded-circle"
+                                            src="images/sasha-stories-134405-unsplash.jpg"></div>
+            <div class="carousel-item"><img alt="Fourth slide" class="d-block mx-auto img-fluid w-25 h-25 rounded-circle"
+                                            src="images/suresh-purohit-774835-unsplash.jpg"></div>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Meet the IWF family</h5>
-          <div><img alt="Our Team" class="rounded img-fluid rounded-circle" src="images/rawpixel-678092-unsplash.jpg"/>
-          </div>
-          <p class="card-text"><strong>This is the team that is responsible for all of your beautiful orders and
-              fantastic decorations.</strong><br>
-            With 100+ years of experience between us, we are able to handle anything that get's thrown our way. Give us
-            a go and you will happy that you gave us a go! </p>
-          <a href="./products.html" class="btn btn-success">Show me the Flowers!</a>
-        </div>
-      </div>
+        <a class="carousel-control-prev" data-slide="prev" href="#flowerousel1" role="button"> <span aria-hidden="true"
+                                                                                                     class="fas fa-arrow-left fa-3x fa-border"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next"
+                                                                                                                                                                                                    href="#flowerousel1" role="button"> <span aria-hidden="true"
+                                                                                                                                                                                                                                              class="fas fa-arrow-right fa-3x fa-border"></span><span
+            class="sr-only">Next</span> </a>
     </div>
+    <!-- about us card -->
     <div class="row">
-      <div id="feedback" class="jumbotron container">
-        <h5 class="card-title text-center">Testimonials</h5>
-        <hr />
-        <div class="container-fluid">
-          <div class="col">
-            <div class="row">
-              <hr />
-              <div class="review-block">
-                <div class="row">
-                  <div class="col">
-                    <div class="review-block-name"><strong><em>Frank Renolds SR.</em></strong></div>
-                    <div class="review-block-date">
-                      <script>function randomDate(start, end) {
-                          return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-                        }
-
-                        document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script>
-                    </div>
-                  </div>
-                  <div class="col-9">
-                    <div class="review-block-rate">
-                      <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                          aria-hidden="true"></span> </button>
-                      <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                          aria-hidden="true"></span> </button>
-                      <button type="button" class="btn btn-grey btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                          aria-hidden="true"></span> </button>
-                      <button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align"> <span
-                          class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
-                      <button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align"> <span
-                          class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
-                    </div>
-                    <div class="review-block-title">SPAM</div>
-                    <div class="review-block-description">Did not ask or order any flowers but they sent me some. The
-                      person delivering got a serve. They did smell nice though.</div>
-                  </div>
+        <div class="card text-center container" id="aboutus">
+            <div class="card-header">
+                <h3>About Us</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Meet the IWF family</h5>
+                <div><img alt="Our Team" class="rounded img-fluid rounded-circle" src="images/rawpixel-678092-unsplash.jpg"/>
                 </div>
-                <hr />
-                <div class="review-block">
-                  <div class="row">
-                    <div class="col">
-                      <div class="review-block-name"><strong><em>Mary Tulips</em></strong></div>
-                      <div class="review-block-date">
-                        <script>function randomDate(start, end) {
-                            return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-                          }
-
-                          document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script>
-                      </div>
-                    </div>
-                    <div class="col-9">
-                      <div class="review-block-rate">
-                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                            aria-hidden="true"></span> </button>
-                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                            aria-hidden="true"></span> </button>
-                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                            aria-hidden="true"></span> </button>
-                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                            aria-hidden="true"></span> </button>
-                        <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                            aria-hidden="true"></span> </button>
-                      </div>
-                      <div class="review-block-title">Beautiful!</div>
-                      <div class="review-block-description">Fantastic little flowershop that gave me everything I
-                        needed for my wedding at a very low price!</div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div class="review-block">
+                <p class="card-text"><strong>This is the team that is responsible for all of your beautiful orders and
+                    fantastic decorations.</strong><br>
+                    With 100+ years of experience between us, we are able to handle anything that get's thrown our way. Give us
+                    a go and you will happy that you gave us a go! </p>
+                <a class="btn btn-success" href="./products.html">Show me the Flowers!</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="jumbotron container" id="feedback">
+            <h5 class="card-title text-center">Testimonials</h5>
+            <hr/>
+            <div class="container-fluid">
+                <div class="col">
                     <div class="row">
-                      <div class="col">
-                        <div class="review-block-name"><strong><em>Sunny Flowerson</em></strong></div>
-                        <div class="review-block-date">
-                          <script>function randomDate(start, end) {
-                              return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-                            }
+                        <hr/>
+                        <!-- start of reviews -->
+                        <div class="review-block">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="review-block-name"><strong><em>Frank Renolds SR.</em></strong></div>
+                                    <div class="review-block-date">
+                                        <script>function randomDate(start, end){
+                                          return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+                                        }
 
-                            document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script>
+                                        document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="review-block-rate">
+                                        <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                            class="glyphicon glyphicon-star"></span></button>
+                                        <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                            class="glyphicon glyphicon-star"></span></button>
+                                        <button aria-label="Left Align" class="btn btn-grey btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                         class="glyphicon glyphicon-star"></span></button>
+                                        <button aria-label="Left Align" class="btn btn-default btn-grey btn-xs" type="button"> <span
+                                                aria-hidden="true" class="glyphicon glyphicon-star"></span></button>
+                                        <button aria-label="Left Align" class="btn btn-default btn-grey btn-xs" type="button"> <span
+                                                aria-hidden="true" class="glyphicon glyphicon-star"></span></button>
+                                    </div>
+                                    <div class="review-block-title">SPAM</div>
+                                    <div class="review-block-description">Did not ask or order any flowers but they sent me some. The
+                                        person delivering got a serve. They did smell nice though.
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="review-block">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="review-block-name"><strong><em>Mary Tulips</em></strong></div>
+                                        <div class="review-block-date">
+                                            <script>function randomDate(start, end){
+                                              return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+                                            }
+
+                                            document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script>
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="review-block-rate">
+                                            <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                class="glyphicon glyphicon-star"></span></button>
+                                            <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                class="glyphicon glyphicon-star"></span></button>
+                                            <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                class="glyphicon glyphicon-star"></span></button>
+                                            <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                class="glyphicon glyphicon-star"></span></button>
+                                            <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                class="glyphicon glyphicon-star"></span></button>
+                                        </div>
+                                        <div class="review-block-title">Beautiful!</div>
+                                        <div class="review-block-description">Fantastic little flowershop that gave me everything I
+                                            needed for my wedding at a very low price!
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="review-block">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="review-block-name"><strong><em>Sunny Flowerson</em></strong></div>
+                                            <div class="review-block-date">
+                                                <script>function randomDate(start, end){
+                                                  return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+                                                }
+
+                                                document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script>
+                                            </div>
+                                        </div>
+                                        <div class="col-9">
+                                            <div class="review-block-rate">
+                                                <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                    class="glyphicon glyphicon-star"></span></button>
+                                                <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                    class="glyphicon glyphicon-star"></span></button>
+                                                <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                    class="glyphicon glyphicon-star"></span></button>
+                                                <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                    class="glyphicon glyphicon-star"></span></button>
+                                                <button aria-label="Left Align" class="btn btn-default btn-grey btn-xs" type="button"> <span
+                                                        aria-hidden="true" class="glyphicon glyphicon-star"></span></button>
+                                            </div>
+                                            <div class="review-block-title">Good Stuff</div>
+                                            <div class="review-block-description">Happy with my order of flowers for my wifes funeral. Was
+                                                a great day.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr/>
+                                    <div class="review-block">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="review-block-name"><strong><em>Daisy Gardener</em></strong></div>
+                                                <div class="review-block-date">
+                                                    <script>function randomDate(start, end){
+                                                      return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+                                                    }
+
+                                                    document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script>
+                                                </div>
+                                            </div>
+                                            <div class="col-9">
+                                                <div class="review-block-rate">
+                                                    <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                        class="glyphicon glyphicon-star"></span></button>
+                                                    <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                        class="glyphicon glyphicon-star"></span></button>
+                                                    <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                        class="glyphicon glyphicon-star"></span></button>
+                                                    <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                        class="glyphicon glyphicon-star"></span></button>
+                                                    <button aria-label="Left Align" class="btn btn-warning btn-xs" type="button"> <span aria-hidden="true"
+                                                                                                                                        class="glyphicon glyphicon-star"></span></button>
+                                                </div>
+                                                <div class="review-block-title">Very Happy!</div>
+                                                <div class="review-block-description">I went in there expecting to be told they didn't have
+                                                    what I wanted as I've searched EVERYWHERE! But to my amazement the lovely staff new exactly
+                                                    what I wanted and were able to get it for me!
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr/>
+                                    </div>
+                                    <!-- feedback button-->
+                                    <h5 class="text-center">We love all types of feedback! Feel free to leave us something by clicking
+                                        on the feedback button below.</h5>
+                                    <!-- Button to Open the Modal -->
+                                    <div class="container-fluid text-center">
+                                        <button class="btn btn-success" data-target="#myModal" data-toggle="modal" type="button">Got
+                                            Feedback?
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="col-9">
-                        <div class="review-block-rate">
-                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                              aria-hidden="true"></span> </button>
-                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                              aria-hidden="true"></span> </button>
-                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                              aria-hidden="true"></span> </button>
-                          <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                              aria-hidden="true"></span> </button>
-                          <button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align"> <span
-                              class="glyphicon glyphicon-star" aria-hidden="true"></span> </button>
-                        </div>
-                        <div class="review-block-title">Good Stuff</div>
-                        <div class="review-block-description">Happy with my order of flowers for my wifes funeral. Was
-                          a great day. </div>
-                      </div>
                     </div>
-                    <hr />
-                    <div class="review-block">
-                      <div class="row">
-                        <div class="col">
-                          <div class="review-block-name"><strong><em>Daisy Gardener</em></strong></div>
-                          <div class="review-block-date">
-                            <script>function randomDate(start, end) {
-                                return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-                              }
-                              document.write(randomDate(new Date(1972, 0, 1), new Date()).toLocaleDateString());</script>
-                          </div>
-                        </div>
-                        <div class="col-9">
-                          <div class="review-block-rate">
-                            <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                                aria-hidden="true"></span> </button>
-                            <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                                aria-hidden="true"></span> </button>
-                            <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                                aria-hidden="true"></span> </button>
-                            <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                                aria-hidden="true"></span> </button>
-                            <button type="button" class="btn btn-warning btn-xs" aria-label="Left Align"> <span class="glyphicon glyphicon-star"
-                                aria-hidden="true"></span> </button>
-                          </div>
-                          <div class="review-block-title">Very Happy!</div>
-                          <div class="review-block-description">I went in there expecting to be told they didn't have
-                            what I wanted as I've searched EVERYWHERE! But to my amazement the lovely staff new exactly
-                            what I wanted and were able to get it for me! </div>
-                        </div>
-                      </div>
-                      <hr />
-                    </div>
-                    <h5 class="text-center">We love all types of feedback! Feel free to leave us something by clicking
-                      on the feedback button below.</h5>
-                    <!-- Button to Open the Modal -->
-                    <div class="container-fluid text-center">
-                      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Got
-                        Feedback?</button>
-                    </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <section class="container-fluid"> </section>
-  </main>
-  <footer class="d-block clear">
-    <nav class=" navbar navbar-light bg-light navbar-expand-lg"> <a href="./index.html" class="logo-lg navbar-brand">I
+    <section class="container-fluid"></section>
+</main>
+<!-- footer-->
+<footer class="d-block clear">
+    <nav class=" navbar navbar-light bg-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I
         Want Flowers</a> <a href="./index.html" class="logo-sm navbar-brand">IWF</a>
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"> <a class="nav-link" href="https://skillageit.tech"><em>Designed by skillageIT ©
-              <script> var d = new Date(); document.write(d.getFullYear())</script>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="https://skillageit.tech"><em>Designed by skillageIT ©
+                <script> const d = new Date();
+                document.write(d.getFullYear());</script>
             </em> <span class="sr-only">(current)</span></a></li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-      </form>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        </form>
     </nav>
-  </footer>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/jquery-3.3.1.min.js"></script>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.3.1.min.js"></script>
 
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/bootstrap.bundle.js"></script>
-  <script src="js/main.js"></script>
-  <!-- The Modal -->
-  <div class="modal fade row" id="myModal">
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/main.js"></script>
+<!-- The Modal -->
+<div class="modal fade row" id="myModal">
     <div class="modal-dialog col">
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title">Feedback Form</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Feedback Form</h4>
+                <button class="close" data-dismiss="modal" type="button">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body" id="modalBody" onClick="updateModal()">
+                <form name="form1">
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label" for="name">Name</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" id="name" name="name" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label" for="email">Email</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" id="email" name="email" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label" for="feedback">Feedback</label>
+                        <div class="col-sm-9">
+                            <label for="feedbacktext"></label><textarea class="form-control form-text" id="feedbacktext" name="feedback" type="text"> </textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Rating</label>
+                        <div class="review-block-rate col-sm-9">
+                            <button aria-label="Left Align" class="btn btn-default btn-xs" id="btn1" name="rating" onClick="toggleOneButton()"
+                                    type="button"><span aria-hidden="true" class="glyphicon glyphicon-star"></span>
+                            </button>
+                            <button aria-label="Left Align" class="btn btn-default btn-xs" id="btn2" name="rating" onClick="toggleTwoButtons()"
+                                    type="button"><span aria-hidden="true" class="glyphicon glyphicon-star"></span>
+                            </button>
+                            <button aria-label="Left Align" class="btn btn-default btn-xs" id="btn3" name="rating" onClick="toggleThreeButtons()"
+                                    type="button"><span aria-hidden="true" class="glyphicon glyphicon-star"></span>
+                            </button>
+                            <button aria-label="Left Align" class="btn btn-default btn-xs" id="btn4" name="rating" onClick="toggleFourButtons()"
+                                    type="button"><span aria-hidden="true" class="glyphicon glyphicon-star"></span>
+                            </button>
+                            <button aria-label="Left Align" class="btn btn-default btn-xs" id="btn5" name="rating" onClick="toggleAllButtons()"
+                                    type="button"><span aria-hidden="true" class="glyphicon glyphicon-star"></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button class="btn btn-warning" id="submitFeedback" type="submit">Submit</button>
+                <button class="btn btn-success" data-dismiss="modal" type="button">Close</button>
+            </div>
         </div>
-        <!-- Modal body -->
-        <div id="modalBody" class="modal-body" onClick="updateModal()">
-          <form name="form1">
-            <div class="form-group row">
-              <label for="name" class="col-sm-3 col-form-label">Name</label>
-              <div class="col-sm-9">
-                <input id="name" type="text" class="form-control" name="name">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="email" class="col-sm-3 col-form-label">Email</label>
-              <div class="col-sm-9">
-                <input id="email" type="text" class="form-control" name="email">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="feedback" class="col-sm-3 col-form-label">Feedback</label>
-              <div class="col-sm-9">
-                  <label for="feedbacktext"></label><textarea class="form-control form-text" id="feedbacktext" name="feedback" type="text"> </textarea>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label class="col-sm-3 col-form-label">Rating</label>
-              <div class="review-block-rate col-sm-9">
-                <button name="rating" id="btn1" type="button" class="btn btn-default btn-xs" aria-label="Left Align"
-                  onClick="toggleOneButton()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                </button>
-                <button name="rating" id="btn2" type="button" class="btn btn-default btn-xs" aria-label="Left Align"
-                  onClick="toggleTwoButtons()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                </button>
-                <button name="rating" id="btn3" type="button" class="btn btn-default btn-xs" aria-label="Left Align"
-                  onClick="toggleThreeButtons()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                </button>
-                <button name="rating" id="btn4" type="button" class="btn btn-default btn-xs" aria-label="Left Align"
-                  onClick="toggleFourButtons()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                </button>
-                <button name="rating" id="btn5" type="button" class="btn btn-default btn-xs" aria-label="Left Align"
-                  onClick="toggleAllButtons()"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button id="submitFeedback" class="btn btn-warning" type="submit">Submit</button>
-          <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 </body>
 
 </html>
