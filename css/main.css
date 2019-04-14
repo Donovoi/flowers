@@ -131,3 +131,28 @@ span.fa-arrow-right, span.fa-arrow-left {
     overflow-wrap: break-word;
 }
 
+#contactemail {
+    word-wrap: break-word;
+}
+
+#footer {
+    margin-top: -50px;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
