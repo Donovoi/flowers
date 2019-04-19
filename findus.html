@@ -45,27 +45,11 @@
     <div class="container">
         <section class="row">
             <div class="col">
-                <ol class="list-group " id="list-tab" role="tablist">
-                    <a aria-controls="melbourne" class="list-group-item list-group-item-action active" data-toggle="list" href="#list-melbourne" id="list-melbourne-list" role="tab">
-                        <li>
-                            Melbourne
-                        </li>
-                    </a>
-                    <a aria-controls="sydney" class="list-group-item list-group-item-action" data-toggle="list" href="#list-sydney" id="list-sydney-list" role="tab">
-                        <li>
-                            Sydney
-                        </li>
-                    </a>
-                    <a aria-controls="perth" class="list-group-item list-group-item-action" data-toggle="list" href="#list-perth" id="list-perth-list" role="tab">
-                        <li>
-                            Perth
-                        </li>
-                    </a>
-                    <a aria-controls="abu" class="list-group-item list-group-item-action" data-toggle="list" href="#list-abu" id="list-abu-list" role="tab">
-                        <li>
-                            Abu Dhabi
-                        </li>
-                    </a>
+                <ol class="list-group" id="list-tab" role="tablist">
+                    <li aria-controls="melbourne" class="list-group-item list-group-item-action" data-toggle="list" href="#list-melbourne" id="list-melbourne-list" role="tab">Melbourne</li>
+                    <li aria-controls="sydney" class="list-group-item list-group-item-action" data-toggle="list" href="#list-sydney" id="list-sydney-list" role="tab">Sydney</li>
+                    <li aria-controls="perth" class="list-group-item list-group-item-action" data-toggle="list" href="#list-perth" id="list-perth-list" role="tab">Perth</li>
+                    <li aria-controls="abu" class="list-group-item list-group-item-action" data-toggle="list" href="#list-abu" id="list-abu-list" role="tab">Abu Dhabi</li>
 
                 </ol>
             </div>
@@ -75,7 +59,7 @@
         <div class="row">
             <div class="col">
                 <div class="tab-content" id="nav-tabContent">
-                    <div aria-labelledby="list-melsbourne-list" class="tab-pane fade show active" id="list-melbourne" role="tabpanel">
+                    <div aria-labelledby="list-melbourne-list" class="tab-pane fade" id="list-melbourne" role="tabpanel">
                         <div class="card bg-light">
                             <div class="card-header"><h4 class="card-title">Melbourne</h4></div>
                             <div class="card-body">
@@ -86,7 +70,7 @@
                                         target="_blank">
                                     Open in Google Maps</a>
                                     <br>
-                                    <i class="fas fa-phone"></i><a href="tel:0417 495 969"> 0417 495 969</a><br>
+                                    <i class="fas fa-phone"></i><a href="tel:0417495969"> 0417 495 969</a><br>
                                     <i class="fas fa-mail-bulk"></i><a href="mailto:melbourne.website@iwantflowers.com.au"> Email Us</a></p>
                             </div>
                         </div>
@@ -102,7 +86,7 @@
                                         target="_blank">
                                     Open in Google Maps</a>
                                     <br>
-                                    <i class="fas fa-phone"></i><a href="tel:(02) 8228 2066"> (02) 8228 2066</a><br>
+                                    <i class="fas fa-phone"></i><a href="tel:0282282066"> (02) 8228 2066</a><br>
                                     <i class="fas fa-mail-bulk"></i><a href="mailto:sydney.website@iwantflowers.com.au"> Email Us</a></p>
                             </div>
                         </div>
@@ -118,7 +102,7 @@
                                         target="_blank">
                                     Open in Google Maps</a>
                                     <br>
-                                    <i class="fas fa-phone"></i><a href="tel:(08) 9071 4046"> (08) 9071 4046</a><br>
+                                    <i class="fas fa-phone"></i><a href="tel:0890714046"> (08) 9071 4046</a><br>
                                     <i class="fas fa-mail-bulk"></i><a href="mailto:perth.website@iwantflowers.com.au"> Email Us</a></p>
                             </div>
                         </div>
@@ -145,13 +129,15 @@
             </div>
         </div>
     </div>
-    <section class="container" id="map">
-        <iframe height="550" src="https://www.google.com/maps/d/embed?mid=170m_va4_sKbQnjrHJNhPIDIPUlFyHyFr" width="100%"></iframe>
-    </section>
+    <div class="container">
+        <section class="embed-responsive embed-responsive-21by9" id="map">
+            <iframe allowfullscreen class="embed-responsive-item" src="https://www.google.com/maps/d/embed?mid=170m_va4_sKbQnjrHJNhPIDIPUlFyHyFr"></iframe>
+        </section>
+    </div>
 </main>
 <!-- footer-->
 <footer class="d-block clear">
-    <nav class=" navbar navbar-light bg-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I
+    <nav class="navbar navbar-light bg-light navbar-expand-lg"><a class="logo-lg navbar-brand" href="./index.html">I
         Want Flowers</a> <a class="logo-sm navbar-brand" href="./index.html">IWF</a>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a class="nav-link" href="https://skillageit.tech"><em>Designed by skillageIT ©
