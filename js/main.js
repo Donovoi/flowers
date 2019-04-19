@@ -132,6 +132,7 @@ function updateModal(){
   'use strict';
   document.getElementById('submitFeedback').onclick = function(){
   
-    document.getElementById('modalBody').innerText = 'Thank you for your Feedback <br/> Please give us time to review your feedback so we can ensure the content posted is constructive and relevant.<br/><br/> We will inform you when your feedback is posted.';
+    document.getElementById('modalBody').innerHTML = 'Thank you for your Feedback <br/> Please give us time to review your feedback so we can ensure the content posted is constructive and relevant.<br/><br/> We will inform you when your feedback is posted.';
+    document.getElementById('submitFeedback').style.display = 'none';
   };
 }
