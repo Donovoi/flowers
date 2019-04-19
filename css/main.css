@@ -36,10 +36,6 @@ a.logo-lg, a.logo-sm {
     text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
 }
 
-.clear {
-    clear: both;
-}
-
 #aboutus, #feedback {
     overflow: auto;
 }
