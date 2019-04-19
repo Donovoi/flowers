@@ -23,8 +23,9 @@ Olive Drab #436914
 
 body {
     background: #000000 url("../images/check.jpg") fixed;
+    display: flex;
+    flex-direction: column;
 }
-
 
 h1, h2, a.logo-lg, a.logo-sm {
     font-family: "Covered By Your Grace", sans-serif;
@@ -139,21 +140,40 @@ span.fa-arrow-right, span.fa-arrow-left {
     word-wrap: break-word;
 }
 
-#footer {
-    margin-top: -50px;
 
+/* To keep footer at the bottom */
+
+* {
+    box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
+html,
 body {
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    position: relative;
 }
 
-.content {
-    flex: 1 0 auto;
+.main-container {
+    min-height: 100vh;
+    overflow: scroll;
+    display: block;
+    position: relative;
+    padding-bottom: 150px;
+
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#map {
+    min-height: 300px;
+
+}
