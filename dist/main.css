@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* My Colours 
+
+Dark Green #1B4107
+Goldenrod #e0b719
+Light Steel Blue #d5e9e7
+Dark Sea Green #94b3a6
+Olive Drab #436914
+
+*/
+
+@font-face {
+    font-family: "Covered By Your Grace";
+    src: url("fonts/coveredbyyourgrace/CoveredByYourGrace.ttf") format('truetype'), url("fonts/coveredbyyourgrace/coveredbyyourgrace-webfont.woff") format('woff'), url("fonts/coveredbyyourgrace/coveredbyyourgrace-webfont.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Sunflower";
+    src: url("fonts/sunflower/Sunflower-Light.ttf") format('truetype'), url("fonts/sunflower/Sunflower-Medium.ttf") format('truetype'), url("fonts/sunflower/Sunflower-Bold.ttf") format('truetype'), url("fonts/sunflower/sunflower-light-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-medium-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-bold-webfont.woff") format('woff'), url("fonts/sunflower/sunflower-light-webfont.woff2") format('woff2'), url("fonts/sunflower/sunflower-medium-webfont.woff2") format('woff2'), url("fonts/sunflower/sunflower-bold-webfont.woff2") format('woff2');
+}
+
+body {
+    background: #000000 url("../images/check.jpg") fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+h2, a.logo-lg, a.logo-sm {
+    font-family: "Covered By Your Grace", sans-serif;
+}
+
+a.logo-lg, a.logo-sm {
+    font-size: 2em;
+    text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+#aboutus, #feedback {
+    overflow: auto;
+}
+
+@media screen and (max-width: 992px) {
+    a.logo-lg {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    a.logo-sm {
+        display: none;
+    }
+}
+
+#navlinks1, #navlinks2, #navlinks3 {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-shadow: -1px 3px #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+    text-decoration: none;
+    z-index: 0;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+}
+
+/* A little Nav Magic */
+
+
+li.topBotomBordersOut a:before, li.topBotomBordersOut a:after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+li.topBotomBordersOut a:before {
+    top: 0;
+    transform: translateY(10px);
+}
+
+li.topBotomBordersOut a:after {
+    bottom: 0;
+    transform: translateY(-10px);
+}
+
+li.topBotomBordersOut a:hover:before, li.topBotomBordersOut a:hover:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+* {
+    font-family: "Sunflower", sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+    #ham {
+        display: none;
+    }
+}
+
+span.fa-arrow-right, span.fa-arrow-left {
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000;
+}
+
+#aboutus, #feedback {
+    background-color: #ffffff;
+}
+
+
+.img-table {
+    height: 200px;
+    width: 200px;
+    background-position: 50% 50%;
+
+}
+
+@media screen and (max-width: 992px) {
+    .img-table {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+#list-tab {
+    overflow-wrap: break-word;
+}
+
+#contactemail {
+    word-wrap: break-word;
+}
+
+
+/* To keep footer at the bottom */
+
+
+#map {
+    min-height: 600px;
+
+}
+
+@media screen and (min-width: 768px) {
+    #fillforfooter {
+        min-height: 300px;
+    }
+}

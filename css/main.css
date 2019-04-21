@@ -23,11 +23,16 @@ Olive Drab #436914
 
 body {
     background: #000000 url("../images/check.jpg") fixed;
+    background: -webkit-image-set(url("../images/check.jpg") .5x);
+    /*background-attachment: scroll;*/
+    background-size: 200%;
+    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     display: flex;
     flex-direction: column;
 }
 
-h1, h2, a.logo-lg, a.logo-sm {
+h2, a.logo-lg, a.logo-sm {
     font-family: "Covered By Your Grace", sans-serif;
 }
 
