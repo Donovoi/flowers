@@ -7,24 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade3f993-4c24-4f86-b603-88ce3400e30c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-4.0.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-4.0.0.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontawesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontawesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/hamburgers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hamburgers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/svg-with-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/svg-with-js.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/svg-with-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/svg-with-js.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/v4-shims.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/v4-shims.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/v4-shims.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/v4-shims.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/_shims.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/_shims.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -247,7 +230,7 @@
       <workItem from="1555831509241" duration="1869000" />
       <workItem from="1555837146691" duration="59000" />
       <workItem from="1555837374873" duration="9000" />
-      <workItem from="1555837913548" duration="2138000" />
+      <workItem from="1555837913548" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="just fixing html for products">
       <created>1548588922972</created>
@@ -389,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555829088726</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="finished everything including screenshots and deleting unused css.">
+      <created>1555840330594</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555840330594</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64867000" />
+    <option name="totallyTimeSpent" value="65534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -503,7 +493,8 @@
     <MESSAGE value="fix suggestions by w3c - find us page" />
     <MESSAGE value="fix suggestions by w3c - contact us page" />
     <MESSAGE value="fix footer for all pages - need to upload to w3c again" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix footer for all pages - need to upload to w3c again" />
+    <MESSAGE value="finished everything including screenshots and deleting unused css." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished everything including screenshots and deleting unused css." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -655,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
