@@ -24,7 +24,7 @@ html {
   width: device-width;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+figcaption, footer, header, main, nav, section {
   display: block;
 }
 
@@ -49,7 +49,7 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -59,24 +59,8 @@ p {
   margin-bottom: 1rem;
 }
 
-abbr[title],
-abbr[data-original-title] {
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
-  cursor: help;
-  border-bottom: 0;
-}
-
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit;
-}
-
 ol,
-ul,
-dl {
+ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -92,15 +76,6 @@ dt {
   font-weight: 700;
 }
 
-dd {
-  margin-bottom: .5rem;
-  margin-left: 0;
-}
-
-blockquote {
-  margin: 0 0 1rem;
-}
-
 dfn {
   font-style: italic;
 }
@@ -112,22 +87,6 @@ strong {
 
 small {
   font-size: 80%;
-}
-
-sub,
-sup {
-  position: relative;
-  font-size: 75%;
-  line-height: 0;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -.25em;
-}
-
-sup {
-  top: -.5em;
 }
 
 a {
@@ -156,23 +115,10 @@ a:not([href]):not([tabindex]):focus {
   outline: 0;
 }
 
-pre,
-code,
-kbd,
-samp {
+
+code {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1em;
-}
-
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto;
-  -ms-overflow-style: scrollbar;
-}
-
-figure {
-  margin: 0 0 1rem;
 }
 
 img {
@@ -314,11 +260,6 @@ progress {
 
 output {
   display: inline-block;
-}
-
-summary {
-  display: list-item;
-  cursor: pointer;
 }
 
 template {
