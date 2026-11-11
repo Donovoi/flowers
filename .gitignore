@@ -4,3 +4,7 @@
 _notes/
 /bower_components/
 /node_modules/
+
+# Keep local and sensitive material outside version control.
+/.idea/workspace.xml
+/.idea/shelf/
